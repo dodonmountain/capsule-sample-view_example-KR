@@ -1,0 +1,18 @@
+capsule {
+  id (example.view_example)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-flags {
+    allow-dialogs-on-detail-pages
+    no-filtering-with-validation
+    use-input-views-for-selection-list-detail
+    no-fallback-to-result-collections
+    modern-default-view-behavior
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+}
